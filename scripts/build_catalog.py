@@ -199,7 +199,8 @@ def build():
         "readme_url": "https://github.com/hujianming0910/customer-acquisition-tools/blob/main/README.md",
         "tools_url": "https://github.com/hujianming0910/customer-acquisition-tools/blob/main/TOOLS.md",
         "progress": {
-            "phase": "种子库已建，待豆包批次01",
+            "phase": "仓库已上线，豆包批次01进行中",
+            "repo_status": "已上线",
             "updated": "2026-10-30",
             "batches": [
                 {"id": "01", "name": "核心栈", "status": "待开始", "candidates": 0, "p0": 0},
