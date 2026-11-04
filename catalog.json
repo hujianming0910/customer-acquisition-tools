@@ -2,14 +2,14 @@
   "meta": {
     "name": "客户获取工具库",
     "repo": "https://github.com/hujianming0910/customer-acquisition-tools",
-    "generated_at": "2026-10-30",
-    "verified_at": "2026-10-30",
-    "total": 37,
-    "p0": 11,
+    "generated_at": "2026-11-05",
+    "verified_at": "2026-11-05",
+    "total": 38,
+    "p0": 12,
     "p1": 20,
     "p2": 5,
     "rejected": 1,
-    "note": "种子目录，由牛牛核验 GitHub API 元数据；豆包分批扩展。Stars/最近提交为 2026-10-30 快照。"
+    "note": "种子目录，由牛牛核验 GitHub API 元数据；豆包分批扩展。原 37 项为 2026-10-30 快照；2026-11-05 新增 D4Vinci/Scrapling（来源抖音，已本地试用）。"
   },
   "categories": [
     {
@@ -1977,6 +1977,55 @@
         "python",
         "python-library",
         "record-linkage"
+      ]
+    },
+    {
+      "id": "D4Vinci__Scrapling",
+      "name": "Scrapling",
+      "full_name": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "description_en": "The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "description_zh": "自适应网页抓取框架，支持 HTTP、真实浏览器、Cloudflare/WAF 反爬、JS 渲染、并发爬虫和结构化解析。",
+      "category": "automation",
+      "stars": 96131,
+      "forks": 10078,
+      "open_issues": 6,
+      "pushed_at": "2026-11-04T16:08:38Z",
+      "language": "Python",
+      "license": "BSD-3-Clause",
+      "free_level": "F0",
+      "free_note": "BSD-3-Clause，开源",
+      "deploy": "Python / pip / Docker",
+      "china_access": "已实测可本地运行；macOS 12 用本机 Chrome + --real-chrome",
+      "use_case": "公开产品页配图直链批量提取；结构会变的行业目录、招标公告、公开图库页面；需要过 Cloudflare/WAF 的公开页面。",
+      "risk": "反爬能力是双刃剑，必须遵守目标站条款和 robots.txt；不绕登录、不破验证码、不抓个人隐私；Cloudflare 通过可能很慢；不是开箱即用的获客成品。",
+      "score": 84,
+      "score_parts": {
+        "场景匹配": 26,
+        "维护活跃": 20,
+        "免费许可": 15,
+        "部署可控": 11,
+        "数据合规": 6,
+        "中国可用": 6
+      },
+      "level": "P0",
+      "verified_at": "2026-11-05",
+      "evidence_urls": [
+        "https://github.com/D4Vinci/Scrapling",
+        "https://github.com/D4Vinci/Scrapling/releases/tag/v0.5",
+        "https://github.com/D4Vinci/Scrapling/blob/main/LICENSE"
+      ],
+      "tags": [
+        "anti-bot",
+        "automation",
+        "browser-automation",
+        "crawler",
+        "data-extraction",
+        "playwright",
+        "python",
+        "scraper",
+        "web-crawler",
+        "web-scraping"
       ]
     }
   ]

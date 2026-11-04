@@ -1,6 +1,6 @@
 # 工具总表
 
-> 共 37 个工具；P0 11 / P1 20 / P2 5。Stars 与最近提交为 2026-10-30 核验快照。
+> 共 38 个工具；P0 12 / P1 20 / P2 5。原 37 项为 2026-10-30 快照；2026-11-05 新增 Scrapling。
 
 | 级别 | 工具 | 分类 | Stars | 最近提交 | License | 免费 | 一句话 |
 |---|---|---|---:|---|---|---|---|
@@ -14,6 +14,7 @@
 | **P0** | [microsoft/playwright](https://github.com/microsoft/playwright) | 自动化与采集 | 98,810 | 2026-10-29 | Apache-2.0 | F0 | 稳定地做网页采集、表单回归、官网巡检；比手写 Selenium 更可靠。 |
 | **P0** | [umami-software/umami](https://github.com/umami-software/umami) | 网站分析 | 39,779 | 2026-10-28 | MIT | F0 | 轻量网站分析：看官网访问、来源、落地页、转化事件，替代重型统计。 |
 | **P0** | [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | 自动化与采集 | 86,522 | 2026-10-29 | Apache-2.0 | F0 | 把公开网页转成适合 LLM 处理的 Markdown/结构化数据，快速提取企业信息。 |
+| **P0** | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 自动化与采集 | 96,131 | 2026-11-04 | BSD-3-Clause | F0 | 自适应网页抓取框架，带真实浏览器和 Cloudflare/WAF 反爬；适合公开产品页配图直链和结构会变的行业目录。 |
 | **P0** | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 自动化与采集 | 119,472 | 2026-10-27 | MIT | F0 | 让 AI 在公开网页上做重复操作：查企业目录、收集公开信息、填内部表单。 |
 | **P1** | [plausible/analytics](https://github.com/plausible/analytics) | 网站分析 | 29,713 | 2026-10-29 | AGPL-3.0 | F1 | 隐私友好型网站分析，看来源、页面、转化，不采集个人身份。 |
 | **P1** | [searxng/searxng](https://github.com/searxng/searxng) | 线索发现 | 38,981 | 2026-10-29 | AGPL-3.0 | F0 | 自建聚合搜索，减少广告和个性化，做企业/行业/招标关键词研究。 |
@@ -48,3 +49,7 @@
 - **P1**：65–79 分，按需评估。
 - **P2**：50–64 分，观察。
 - 评分表见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 变更记录
+
+- 2026-11-05 牛牛：新增 `D4Vinci/Scrapling`，来源抖音 @📷大声发《掌握信息差就站在了食物链顶端》；已本地跑通（人民网 0.17s、西门子产品页 0.88s、Cloudflare 测试页 200）。结论：公开网页/反爬页采集可用，Cloudflare 通过较慢，必须合规使用。
